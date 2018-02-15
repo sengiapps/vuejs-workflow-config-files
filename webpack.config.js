@@ -92,6 +92,12 @@ module.exports = {
     }),
     new CleanWebpackPlugin(['dist'])
   ],
+  /* 
+  **  resolve is an object that contains the absolute path
+  **  of all the project's files and gives them and alias
+  **  that makes file importing easier.
+  **  An example of this is resolve.webpack.js
+  */
   resolve,
   devServer: {
     historyApiFallback: true,
