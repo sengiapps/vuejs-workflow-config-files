@@ -1,0 +1,40 @@
+{
+  "extends": ["airbnb", "plugin:vue/recommended", "prettier"],
+  "globals": {},
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "func-names": ["error", "never"],
+    "space-before-function-paren": ["error", "never"],
+    "space-before-blocks": [
+      "error",
+      {
+        "functions": "always",
+        "keywords": "always",
+        "classes": "never"
+      }
+    ],
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false,
+        "classes": false,
+        "variables": false
+      }
+    ],
+    "no-param-reassign": 0,
+    "import/extensions": 0,
+    "no-new": 0,
+    "vue/html-self-closing": 0
+  }
+}
