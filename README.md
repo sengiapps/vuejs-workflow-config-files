@@ -13,3 +13,4 @@ In your project's _package.json_ file paste the devDependecies section of this r
 ### Notes
 * [Prettier installation guide](https://prettier.io/docs/en/install.html)
 * [Eslint installation guide](https://eslint.org/docs/user-guide/getting-started)
+* Keep in mind that the package.json's devDepencies section may have outdated versions.
